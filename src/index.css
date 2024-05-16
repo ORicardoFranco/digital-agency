@@ -18,3 +18,12 @@ html {
     @apply bg-primary text-white hover:bg-primary/80  duration-500 rounded-lg py-2 px-4;
   }
 }
+
+.half-circle {
+  width: 200px;
+  height: 100px; /* as the half of the width */
+  border-top-left-radius: 110px; /* 100px of height + 10px of border */
+  border-top-right-radius: 110px; /* 100px of height + 10px of border */
+  border: 5px solid gray;
+  border-bottom: 0;
+}

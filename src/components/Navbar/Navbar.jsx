@@ -15,11 +15,6 @@ export const MenuLinks = [
     name: "Services",
     link: "/#services",
   },
-  {
-    id: 3,
-    name: "Projects",
-    link: "/#projects",
-  },
 ];
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -42,7 +37,7 @@ const Navbar = () => {
           >
             <img src={Logo} alt="" className="w-5" />
             <span className="text-2xl sm:text-3xl font-semibold">
-              Digital agency
+              IT Services
             </span>
           </a>
           {/* Desktop view Navigation */}

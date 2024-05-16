@@ -1,39 +1,42 @@
 import React from "react";
-import { FaCameraRetro } from "react-icons/fa";
-import { GiNotebook } from "react-icons/gi";
-import { SlNote } from "react-icons/sl";
+import { FaWindows } from "react-icons/fa";
+import { FaChartBar } from "react-icons/fa";
+import { PiMicrosoftPowerpointLogoDuotone } from "react-icons/pi";
+import { TbWorldWww } from "react-icons/tb";
 
 const skillsData = [
   {
-    name: "App Development",
-    icon: <FaCameraRetro className="text-4xl text-primary" />,
+    name: "Windows Solutions",
+    icon: <FaWindows className="text-4xl text-primary" />,
     link: "#",
     description:
-      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+      "We specialize in resolving all your Windows and Microsoft-related challenges. From troubleshooting errors to optimizing performance, our dedicated team is committed to providing expert solutions tailored to your needs. Focus on your business while we take care of the tech.",
     aosDelay: "0",
   },
   {
-    name: "Web Designing",
-    icon: <GiNotebook className="text-4xl text-primary" />,
+    name: "Business Intelligence",
+    icon: <FaChartBar className="text-4xl text-primary" />,
     link: "#",
     description:
-      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+      "We specialize in Business Intelligence and Data Analytics services designed to transform complex data into actionable insights. Partner with us to unlock the full potential of your data and propel your business forward.",
     aosDelay: "300",
   },
   {
-    name: "Graphic Designing",
-    icon: <SlNote className="text-4xl text-primary" />,
+    name: "Power Apps",
+    icon: (
+      <PiMicrosoftPowerpointLogoDuotone className="text-4xl text-primary" />
+    ),
     link: "#",
     description:
-      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+      "We harness the capabilities of Microsoft Power Apps to create custom applications that drive efficiency and automation within your organization. Whether you need a simple app to streamline tasks or a complex system for enterprise-wide use, we provide tailored solutions that transform your operational productivity.",
     aosDelay: "500",
   },
   {
-    name: "Digital Marketing",
-    icon: <SlNote className="text-4xl text-primary" />,
+    name: "Website",
+    icon: <TbWorldWww className="text-4xl text-primary" />,
     link: "#",
     description:
-      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+      "We craft bespoke websites that blend exceptional design with robust functionality. We focus on user-centric designs, ensuring that every site is intuitive, responsive, and tailored to meet the unique needs of your audience. We provide end-to-end solutions to help you achieve your digital objectives and engage your customers more effectively.",
     aosDelay: "700",
   },
 ];
@@ -55,8 +58,7 @@ const Services = () => {
               data-aos="fade-up"
               className="text-gray-600 dark:text-gray-400 text-sm"
             >
-              We are self-service data analytics software that lets you create
-              visually.
+              Your IT department
             </p>
           </div>
 
@@ -79,14 +81,6 @@ const Services = () => {
           </div>
 
           {/* button */}
-          <div
-            data-aos="fade-up"
-            data-aos-delay="900"
-            data-aos-offset="0"
-            className="text-center mt-4 sm:mt-8"
-          >
-            <button className="primary-btn">Learn More</button>
-          </div>
         </div>
       </div>
     </>

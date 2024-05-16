@@ -5,11 +5,13 @@ import "aos/dist/aos.css";
 // Component import
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
-import BrandsLogo from "./components/BrandsLogo/BrandsLogo.jsx";
 import Services from "./components/Services/Services";
-import Testimonial from "./components/Testimonial/Testimonial";
-import BlogsComp from "./components/Blogs/BlogsComp.jsx";
 import Footer from "./components/Footer/Footer";
+import Windows from "./components/AboutServices/Windows.jsx";
+import BI from "./components/AboutServices/BI.jsx";
+import PowerApps from "./components/AboutServices/PowerApps.jsx";
+import Website from "./components/AboutServices/Website.jsx";
+import Replyin24 from "./components/Services/Replyin24.jsx";
 
 const App = () => {
   useEffect(() => {
@@ -23,13 +25,15 @@ const App = () => {
   }, []);
 
   return (
-    <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
+    <div className="bg-[#FBFBFB] dark:bg-[#F2735B] dark:text-white text-black overflow-x-hidden">
       <Navbar />
       <Hero />
-      <BrandsLogo />
       <Services />
-      <Testimonial />
-      <BlogsComp />
+      <Replyin24 />
+      <Windows />
+      <BI />
+      <PowerApps />
+      <Website />
       <Footer />
     </div>
   );
